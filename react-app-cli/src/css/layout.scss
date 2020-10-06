@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+.navbox {
+    display: flex;
+    justify-content: space-between;
+    Button {
+        margin-right: 27px;
+        margin-top: 5px;
+    }
+}
+
+.headerbox {
+    height: 40px;
+    border-bottom: solid 1px #ccc;
+    line-height: 35px;
+    .right {
+        float: right;
+        margin-right: 50px;
+        img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+    }
+}
+
+.slider-wraper {
+    flex: 1;
+    height: 100%;
+}
+
+.slider-left {
+    width: 20%;
+    float: left;
+    height: 100%;
+}
+
+.slider-right {
+    width: 80%;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.context {
+    flex: 1;
+    display: flex;
+    height: 100%;
+}
+
+span {
+    cursor: pointer;
+    color: rgb(94, 77, 4);
+}
+
+.addbtn {
+    color: white;
+}
+
+.box {
+    margin-left: 20px;
+}
+
+.avatar-uploader>.ant-upload {
+    width: 128px;
+    height: 128px;
+    margin-top: 20px;
+}
+
+.text-nobr {
+    width: 150px;
+    height: 100px;
+}
+
+#input {
+    width: 400px;
+    margin-right: 260px;
+}
+
+#input2 {
+    width: 700px;
+    margin-left: 00px;
+    margin-top: 5px;
+}
+
+.combox {
+    img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+}
+
+.detail {
+    margin-left: 20px;
+    margin-right: 30px;
+    dl {
+        display: flex;
+        margin-top: 10px;
+        dt {
+            img {
+                width: 150px;
+                height: 150px;
+                border: #ccc solid 2px;
+            }
+        }
+        dd {
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            p {
+                margin-top: 27px;
+                span {
+                    color: #ccc;
+                }
+            }
+        }
+    }
+    .ccc {
+        display: flex;
+        justify-content: space-between;
+        .one,
+        .two {
+            width: 650px;
+            height: 250px;
+            background: rgba(204, 204, 204, 0.363);
+        }
+    }
+}
+
+.comment-action {
+    padding-left: 8px;
+    cursor: 'auto';
+}
+
+[class*='-col-rtl'] .comment-action {
+    padding-right: 8px;
+    padding-left: 0;
+}
+
+.cardbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1370px;
+    justify-content: space-between;
+    height: 750px;
+}

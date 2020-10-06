@@ -1,0 +1,3 @@
+export const UPDATA_TOKEN = "UPDATA_TOKEN";
+export const UPDATA_UID = "UPDATA_UID";
+export const UPDATA_USERINFO = "UPDATA_USERINFO";
